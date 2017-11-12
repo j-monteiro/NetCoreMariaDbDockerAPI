@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  netcoremariadbapi:
+    image: netcoremariadbapi
+    build:
+      context: ./NetCoreMariaDbAPI
+      dockerfile: Dockerfile
