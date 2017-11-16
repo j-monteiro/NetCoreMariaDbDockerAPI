@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreMariaDbAPI", "NetCoreMariaDbAPI\NetCoreMariaDbAPI.csproj", "{3889E41F-03F1-4383-8B86-F7C6083878CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreMariaDbAPI", "NetCoreMariaDbAPI\NetCoreMariaDbAPI.csproj", "{3889E41F-03F1-4383-8B86-F7C6083878CC}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{773DFFFC-D55E-4475-9F36-4DAC1F4EBD30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreMariaDbAPI.DAL", "..\NetCoreMariaDbAPI.DAL\NetCoreMariaDbAPI.DAL.csproj", "{5D87BB8E-2700-4184-A861-F9E181FAAA72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{773DFFFC-D55E-4475-9F36-4DAC1F4EBD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{773DFFFC-D55E-4475-9F36-4DAC1F4EBD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{773DFFFC-D55E-4475-9F36-4DAC1F4EBD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D87BB8E-2700-4184-A861-F9E181FAAA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D87BB8E-2700-4184-A861-F9E181FAAA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D87BB8E-2700-4184-A861-F9E181FAAA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D87BB8E-2700-4184-A861-F9E181FAAA72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
